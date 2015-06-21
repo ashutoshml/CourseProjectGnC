@@ -16,8 +16,8 @@ The repo comprises the following main files.
 
 1. Download the zip - file from here: 
 	[Zipped Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-2. Extract the zipped file using any archive manager. The file should be named "UCI HAR Dataset". If not, please change the file name to "UCI HAR Dataset"
-3. Open R console and set working directory to the directory where you have extracted the file. (Path does not include "UCI HAR Dataset").
-For example: If file is extracted to "C:\Windows\Users\R\UCI HAR Dataset" then set working directory as "C:\Windows\Users\R", using setwd("C:\Windows\Users\R")
+2. Extract the zipped file using any archive manager. The extracted folder should be named "UCI HAR Dataset". If not, please change the folder name to "UCI HAR Dataset"
+3. Open R console and set working directory to the directory where you have extracted the folder. (Path does not include "UCI HAR Dataset").
+For example: If folder is extracted to "C:\Windows\Users\R\UCI HAR Dataset" then set working directory as "C:\Windows\Users\R", using setwd("C:\Windows\Users\R")
 4. Run the script run_analysis.R from the R console. You should be able to get the tidy data set from there.
 
