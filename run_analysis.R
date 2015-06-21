@@ -37,5 +37,9 @@ for(n in 1:6){
   dfboth$Label[which(dfboth$Label == n)] <- as.character(activity_labels$labelName[n])
 }
 
-## Grouping tidy data based on activity and subject
-tidy_data <- group_by(dfboth,Label,Subject)
+## Aggragating tidy data based on activity and subject
+by1 <- dfboth$Label
+by2 <- dfboth$Subject
+tidydata <- aggregate(dfboth[,-c(1,2)],by = list(Label = by1,Subject = by2),FUN = "mean")
+
+write.table(tidydata, file = "tidydata.txt",row.names = FALSE)

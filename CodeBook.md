@@ -1,6 +1,6 @@
 ## CodeBook
 
-#### Variable Description
+#### Variable Description : run_analysis.R
 1. X_train : Table containing the given raw training data.
 2. y_train : Table containing the activity labels for the raw training data.
 3. X_test : Table containing the given raw test data.
@@ -26,3 +26,10 @@ names(features) <- c("featureNo","featureName") :- Labels columns of features da
 
 In addition, the data table is labelled properly in the for loop wrt activity.
 
+#### Output
+The output is a file "tidydata.txt" which contains 180 obs. and 68 variables for the various means and standard deviations.
+
+Variables : 
+Label : Contains the activity Name
+Subject : Contains the subject
+Other variables: As explained in features_info.txt
