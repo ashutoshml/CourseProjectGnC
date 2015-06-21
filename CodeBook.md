@@ -30,6 +30,6 @@ In addition, the data table is labelled properly in the for loop wrt activity.
 The output is a file "tidydata.txt" which contains 180 obs. and 68 variables for the various means and standard deviations.
 
 Variables : 
-Label : Contains the activity Name
-Subject : Contains the subject
-Other variables: As explained in features_info.txt
+1. Label : Contains the activity Name
+2. Subject : Contains the subject
+3. Other variables: As explained in features_info.txt
